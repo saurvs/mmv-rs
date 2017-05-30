@@ -30,7 +30,7 @@ fn main() {
     let between = Range::new(-1.0, 1.0);
     let mut rng = rand::thread_rng();
 
-    for i in 0..1000000 {
+    for i in 1..1000001 {
         trials.set_val(MetricType::I64(i));
 
         let x = between.ind_sample(&mut rng);
