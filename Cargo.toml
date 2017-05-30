@@ -1,0 +1,12 @@
+[package]
+name = "mmv"
+version = "0.1.0"
+authors = ["Saurav Sachidanand <sauravsachidanand@gmail.com>"]
+
+[dependencies]
+memmap = "0.5.2"
+byteorder = "1.0.0"
+time = "0.1"
+nix = "0.8.0"
+bitflags = "0.9.1"
+rand = "0.3.15"
